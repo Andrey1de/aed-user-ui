@@ -128,6 +128,15 @@
   dependencies:
     tslib "^2.1.0"
 
+"@angular/cdk@^12.0.4":
+  version "12.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-12.0.4.tgz#074f17dc3f3f2ed054dace5ea2d6c89126e000df"
+  integrity sha512-NX/1kEc6ndyEHjGcMtMJYEjwmoURuwRSqKJLbGcHTUwXuuR+hfDP/vU1XDOeXNC80SV+0B4BpJnREkINILfYKw==
+  dependencies:
+    tslib "^2.1.0"
+  optionalDependencies:
+    parse5 "^5.0.0"
+
 "@angular/cli@~12.0.4":
   version "12.0.4"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-12.0.4.tgz#766d471e7486a9e51297278b3a8afdbc96265ab4"
@@ -195,10 +204,24 @@
   dependencies:
     tslib "^2.1.0"
 
+"@angular/flex-layout@^12.0.0-beta.34":
+  version "12.0.0-beta.34"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-12.0.0-beta.34.tgz#24d83bf3f8e4eacb661b3b8f9f85b0102415ff30"
+  integrity sha512-nLwKovXpyG+/U3Lbmfwt+q4ARupxtbPmFTZD0Y8oItFAV6/Oh9l+QQsNQa2VhOHAOrVagyDwcEM+SePtB5EmrQ==
+  dependencies:
+    tslib "^2.1.0"
+
 "@angular/forms@~12.0.4":
   version "12.0.4"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-12.0.4.tgz#50f62a5a3984112f3f2568ab6cd9df1b38096095"
   integrity sha512-700j7RNGdQhGrIUMwSgP1DxT35JlYmAdmmKK2mZl2bfQwZw1xKwyG9XgbLGiaJbFoG3nLLiUgJFonA+xS4nU6w==
+  dependencies:
+    tslib "^2.1.0"
+
+"@angular/material@12.0.4":
+  version "12.0.4"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-12.0.4.tgz#0cd88328f846d7ba6485abc7f1888aef174d7e4c"
+  integrity sha512-pvfYEeUCLR7EmA6R/kkXz5jfl+RHwh3AS9X9kWARWIOzA7p0hG9ApoFT5KCofTBNp0nukau1QoGR4WGla6wWvQ==
   dependencies:
     tslib "^2.1.0"
 
@@ -5410,6 +5433,11 @@ parse5-sax-parser@^6.0.1:
   dependencies:
     parse5 "^6.0.1"
 
+parse5@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
+  integrity sha512-ugq4DFI0Ptb+WWjAdOK16+u/nHfiIrcE+sh8kZMaM0WllQKLI9rOUq6c2b7cwPkXdzfQESqvoqK6ug7U/Yyzug==
+
 parse5@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
@@ -6519,6 +6547,11 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+rxjs-compat@^6.6.7:
+  version "6.6.7"
+  resolved "https://registry.yarnpkg.com/rxjs-compat/-/rxjs-compat-6.6.7.tgz#6eb4ef75c0a58ea672854a701ccc8d49f41e69cb"
+  integrity sha512-szN4fK+TqBPOFBcBcsR0g2cmTTUF/vaFEOZNuSdfU8/pGFnNmmn2u8SystYXG1QMrjOPBc6XTKHMVfENDf6hHw==
 
 rxjs@6.6.7, rxjs@^6.6.6, rxjs@~6.6.0:
   version "6.6.7"

@@ -3,16 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './app.material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { PostDataService } from './post/post-data.service';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WelcomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FlexLayoutModule
   ],
-  providers: [],
+  providers: [PostDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
